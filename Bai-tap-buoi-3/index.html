@@ -4,6 +4,279 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <section id="Exercise1">
+      <h3>#Form sign up</h3>
+
+      <div class="container">
+        <h1>Try a free sample</h1>
+        <p>
+          Sign up to get a coupon you can redeem at your nearest Dancing Goat
+          cafe for a sample of the Colombia Carlos Imbachi coffee. We'll also
+          make sure you don't miss out on news introducing the new coffees that
+          we add to our store regularly.
+        </p>
+
+        <form action="#" method="POST">
+          <div class="text">
+            <div class="col-sm-6">
+              <label for="first-name">First name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="John"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="last-name">Last name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Smith"
+              />
+            </div>
+          </div>
+
+          <div class="text">
+            <div class="col-sm-6">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="address">Address</label>
+              <input
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Silk St"
+              />
+            </div>
+          </div>
+
+          <div class="text">
+            <div class="col-sm-6">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="London" />
+            </div>
+            <div class="col-sm-6">
+              <label for="state">State <span>(optional)</span></label>
+              <input type="text" id="state" name="state" placeholder="" />
+            </div>
+          </div>
+
+          <div class="text">
+            <div class="col-sm-6">
+              <label for="zip-code">ZIP code</label>
+              <input
+                type="text"
+                id="zip-code"
+                name="zip-code"
+                placeholder="EC2Y8Ds"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="uk">United Kingdom</option>
+                <option value="us">United States</option>
+                <option value="vn">Vietnam</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="submit-btn">
+            <button type="submit" class="btn-submit">
+              SEND ME FREE COFFEE
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="Exercise2">
+      <h3>#Máy tính bỏ túi</h3>
+
+      <div class="calculator">
+        <div class="calc-display">9 + 9</div>
+
+        <div class="calc-keys">
+          <div class="line">
+            <button class="calc-btn">1</button>
+            <button class="calc-btn">2</button>
+            <button class="calc-btn">3</button>
+            <button class="calc-btn">+</button>
+          </div>
+
+          <div class="line">
+            <button class="calc-btn">4</button>
+            <button class="calc-btn">5</button>
+            <button class="calc-btn">6</button>
+            <button class="calc-btn">-</button>
+          </div>
+          <div class="line">
+            <button class="calc-btn">7</button>
+            <button class="calc-btn">8</button>
+            <button class="calc-btn">9</button>
+            <button class="calc-btn">x</button>
+          </div>
+          <div class="line">
+            <button class="calc-btn">C</button>
+            <button class="calc-btn">0</button>
+            <button class="calc-btn">=</button>
+            <button class="calc-btn">/</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Exercise3">
+      <h3>#Form login</h3>
+
+      <div class="form">
+        <div class="login">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <div class="login">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <div class="login">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" />
+        </div>
+        <div class="login">
+          <label for="address">Web Serve:</label>
+          <select id="server" name="server">
+            <option value="uk">-Choose a server-</option>
+            <option value="us">United States</option>
+            <option value="vn">Vietnam</option>
+          </select>
+        </div>
+        <div class="login">
+          <label>Please specify your role:</label>
+          <div class="options-col">
+            <div class="option-item">
+              <input type="radio" id="role-admin" name="role" value="admin" />
+              <label for="role-admin" class="label-normal">Admin</label>
+            </div>
+            <div class="option-item">
+              <input
+                type="radio"
+                id="role-engineer"
+                name="role"
+                value="engineer"
+              />
+              <label for="role-engineer" class="label-normal">Engineer</label>
+            </div>
+            <div class="option-item">
+              <input
+                type="radio"
+                id="role-manager"
+                name="role"
+                value="manager"
+              />
+              <label for="role-manager" class="label-normal">Manager</label>
+            </div>
+            <div class="option-item">
+              <input type="radio" id="role-guest" name="role" value="guest" />
+              <label for="role-guest" class="label-normal">Guest</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="login">
+          <label>Single Sign-on to the following:</label>
+          <div class="options-col">
+            <div class="option-item">
+              <input type="checkbox" id="sso-mail" name="sso-mail" />
+              <label for="sso-mail" class="label-normal">Mail</label>
+            </div>
+            <div class="option-item">
+              <input type="checkbox" id="sso-payroll" name="sso-payroll" />
+              <label for="sso-payroll" class="label-normal">Payroll</label>
+            </div>
+            <div class="option-item">
+              <input
+                type="checkbox"
+                id="sso-self-service"
+                name="sso-self-service"
+              />
+              <label for="sso-self-service" class="label-normal"
+                >Self-service</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="login-btn">
+          <button type="submit" class="btn-login">Login</button>
+          <button type="reset" class="btn-reset">Reset</button>
+        </div>
+      </div>
+    </section>
+    <section id="Exercise4">
+      <h3>#Form contact</h3>
+
+      <div class="container">
+        <h2>Get in touch with us by filling contact form below</h2>
+
+        <form action="#" method="POST">
+          <div class="text">
+            <div class="col-sm-6">
+              <label for="full-name"></label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your full name"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="full-name"></label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your full name"
+              />
+            </div>
+          </div>
+
+          <div class="text">
+            <div class="col-sm-6">
+              <label for="full-name"></label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your full name"
+              />
+            </div>
+            <div class="col-sm-6"></div>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your message here"
+              cols="70"
+              rows="15"
+            ></textarea>
+          </div>
+          <div class="submit-bt">
+            <button type="submit" class="b-submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
