@@ -1,0 +1,92 @@
+.form-subscribe {
+
+    background-color: rgb(51, 68, 85);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.form-subscribe button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.form-subscribe button:hover {
+    background-color: darkorange;
+    color: white;
+}
+.form-subscribe input {
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    padding: 7px;
+
+}
+.custom-blackquote {
+    width: 45%;
+    font-size: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #333;
+}
+.quotation-end, .quotation-start {
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+    margin-left: 0;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+.quotation-start {
+    float: left;
+}
+.quotation-end {
+    float: right;
+}
+.custom-blackquote p {
+    margin: 0 40px;
+}
+.cl{
+    margin-top: 150px;
+}
+.custom-list {
+    margin-top: 100px;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul {
+  list-style: none; /* Tắt dấu chấm mặc định */
+  padding: 0;
+}
+
+
+li {
+ font-size: 30px;
+}
+li::before {
+  content: "😊";  
+  font-weight: bold;
+  width: 1.5em; /* Tạo khoảng cách giữa dấu và chữ */
+  font-size: smaller;
+}
+.html {
+font-size: 25px;
+padding: 20px;}
+.html-box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
