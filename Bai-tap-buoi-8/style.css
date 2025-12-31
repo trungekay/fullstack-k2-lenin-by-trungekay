@@ -41,40 +41,53 @@ body{
     
 }
 
+.hero-section {
+    position: relative; 
+    width: 100%;
+    margin-bottom: 50px; 
+}
 .bgr1 img {
     width: 100%;
     height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.icon {
+    position: absolute; 
+    top: 415px; 
+    left: 5%;
+    z-index: 10; 
 }
 .icon img {
-    width: 100%;
+    width: 200px;
     height: 170px;
+    object-fit: contain;
+    background: #fff;
 }
-.bgr1 {
-    position: relative;
-}
-.icon {
-    position: absolute;
-    top:127%;
-    left: 5%;
-}
-.vin-nav{
-    border-bottom: 1px solid #cccccc;
-    background-color: #fff;
+
+.vin-nav {
+    position: relative; 
     width: 100%;
     display: flex;
-    position: absolute;
-    margin: 30px auto;
-    top: 146%;
-    justify-content: end;
-    padding-right: 15px;
+    justify-content: flex-end; 
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+    z-index: 5;
 }
-.vin-nav a{
+
+.vin-nav a {
     text-decoration: none;
     padding: 10px 20px;
     color: #3f3424;
+    font-weight: bold;
+    font-size: 14px;
 }
+
 .vin-nav a:hover {
-    border-bottom:5px solid #bf4240;
+    border-bottom: 3px solid #bf4240;
     color: #bf4240;
 }
 
